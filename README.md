@@ -14,7 +14,7 @@ for /f %%i in (%1) do git clone git@github.com:%%i.git
 
 ## 用法 / Usage
 
-写一个文件，每行一个插件地址：
+在你的 Vim 插件目录下写一个文件，每行一个插件地址：
 
 ```
 rakr/vim-one
